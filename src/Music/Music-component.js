@@ -27,7 +27,7 @@ export function Music() {
                 <h1>Music Loaded.</h1>
                 <div className="row bg-dark p-5">
                     {
-
+                        // Mapeamos el resultado de la API
                         canciones.tracks.map(function (cancion) {
                             return (
                                 <div className="card col-3 m-5" key={cancion.id}>
